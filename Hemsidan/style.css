@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: 'Work sans', sans-serif;
+  overflow-y:hidden;  Stoppar scrollningen */
+}
+
+h1 {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+}
+
+header {
+  background: #000000; /* Färgen över boarden. */
+  opacity: 0.8;
+}
+
+/* Detta är någonslags fix, testa att ta bort när du är klar. */
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+    width: 100%;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 32px;
+
+  position: relative;
+}
+
+nav a {
+  color: white;  /* Färgen över hem, lösningar, kontakt. */
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  opacity: 0.80;
+}
+
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.container-1 {
+  display:flex;
+}
+
+.item-1 {
+  width: 100%;
+}
