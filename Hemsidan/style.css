@@ -1,4 +1,5 @@
 body {
+  background: #333333;
   margin: 0;
   font-family: 'Work sans', sans-serif;
   overflow-y:hidden;  Stoppar scrollningen */
@@ -19,8 +20,7 @@ h1 {
 }
 
 header {
-  background: #000000; /* Färgen över boarden. */
-  opacity: 0.8;
+  background: #333333; /* Färgen över boarden. */
 }
 
 /* Detta är någonslags fix, testa att ta bort när du är klar. */
